@@ -3,13 +3,13 @@
 Towise assists you to detect human faces and bodies with using the latest and reliable technology.
 
 ## Getting Started
-###Prerequisites 
+### Prerequisites 
 ```
  node v8+
  npm v3+
 
 ```
-###Installing
+### Installing
 To install the package
 
 ```
@@ -19,7 +19,7 @@ To import your project
 ```
 const Towise = require('towise');
 ```
-###Using Towise
+### Using Towise
 You must enter appKey and appId
 
 For Example:
@@ -49,10 +49,10 @@ towise.emotionDetect(image_url)
         .catch( err => console.error(err));
 ```
 
-##Versioning
+## Versioning
 For the versions available, see the https://github.com/argedor/TowiseNodeJSAPI/tags
 
-##Authors
+## Authors
 * **Harun Keleşoğlu** - *Developer* - [Github](https://github.com/harunkelesoglu)
 See also the list of [contributers](https://github.com/argedor/TowiseNodeJSAPI/graphs/contributors)
 
