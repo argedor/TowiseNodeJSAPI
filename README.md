@@ -12,18 +12,18 @@ Towise assists you to detect human faces and bodies with using the latest and re
 ### Installing
 To install the package
 
-```
+```sh
 npm install towise 
 ```
 To import your project
-```
+```javascript
 const Towise = require('towise');
 ```
 ### Using Towise
 You must enter appKey and appId
 
 For Example:
-```
+```javascript
 const Towise = require('towise');
 
 const towise = new Towise({ 
